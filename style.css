@@ -1,0 +1,43 @@
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+.top-headline {
+  border-left: 7px solid;
+  border-image: linear-gradient(45deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+.headline-color {
+  color: orange;
+}
+h1 {
+  font-size: 80px;
+  margin-left: 20px;
+}
+p {
+  font-size: 25px;
+}
+.link-button {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 45px;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  border-radius: 5px;
+  h
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+.half-width img {
+  width: 70%;
+}
+.mission-headline{
+    text-align: center;
+}
