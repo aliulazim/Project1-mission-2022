@@ -13,9 +13,14 @@ body {
 h1 {
   font-size: 80px;
   margin-left: 20px;
+  line-height: 50px;
 }
-h3{
-    font-size: 30px;
+h2 {
+  font-size: 50px;
+  line-height: 22px;
+}
+h3 {
+  font-size: 30px;
 }
 p {
   font-size: 25px;
@@ -28,7 +33,6 @@ p {
   padding: 15px 45px;
   background-image: linear-gradient(45deg, lightsalmon, tomato);
   border-radius: 5px;
-  h
 }
 .flexible-container {
   display: flex;
@@ -41,32 +45,55 @@ p {
 .half-width img {
   width: 70%;
 }
-.mission-headline{
-    text-align: center;
+.mission-headline {
+  text-align: center;
 }
-.my-mission{
-    margin-left: 10%;
-    margin-right: 10%;
+.my-mission {
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.mission-stape{
-    width: 30%;
-    margin-left: 2%;
+.mission-stape {
+  width: 30%;
+  margin-left: 2%;
 }
-.mission-stape img{
-    width: 40%;
+.mission-stape img {
+  width: 40%;
 }
-#mission{
-    background-color: lightblue;
-    border-radius: 35px;
-    padding: 20px 15px 25px 35px;
+#mission {
+  background-color: lightblue;
+  border-radius: 35px;
+  padding: 20px 15px 25px 35px;
 }
-#vission{
-    background-color: lightpink;
-    border-radius: 35px;
-    padding: 20px 15px 25px 35px;
+#vission {
+  background-color: lightpink;
+  border-radius: 35px;
+  padding: 20px 15px 25px 35px;
 }
-#goals{
-    background-color: lemonchiffon;
-    border-radius: 35px;
-    padding: 20px 15px 25px 35px;
+#goals {
+  background-color: lemonchiffon;
+  border-radius: 35px;
+  padding: 20px 15px 25px 35px;
+}
+/* .develop-image {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 40%;
+} */
+
+.develop-content {
+  padding-right: 10%;
+  margin-left: -330px;
+  padding-top: 90px;
+}
+.community-content {
+  padding-top: 90px;
+  margin-right: -90px;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
