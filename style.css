@@ -90,10 +90,25 @@ p {
   padding-top: 90px;
   margin-right: -90px;
 }
+.skill-headline {
+  text-align: center;
+}
+.progress-percentage {
+  float: right;
+}
+progress {
+  width: 100%;
+}
+.skill-content {
+  padding-right: 10%;
+}
 footer {
-  background-color: black;
+  background-color: slategray;
   text-align: center;
   color: white;
   padding-top: 3%;
   padding-bottom: 3%;
+}
+.footer-headline-color {
+  color: orangered;
 }
