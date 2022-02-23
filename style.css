@@ -7,6 +7,9 @@ body {
   border-image: linear-gradient(45deg, lightsalmon, tomato);
   border-image-slice: 1;
 }
+.topbar-left {
+  padding-top: 110px;
+}
 .headline-color {
   color: orange;
 }
@@ -103,12 +106,18 @@ progress {
   padding-right: 10%;
 }
 footer {
-  background-color: slategray;
+  background-color: #2e2e30;
   text-align: center;
   color: white;
   padding-top: 3%;
   padding-bottom: 3%;
 }
+.footer-headline {
+  font-family: "Lobster", cursive;
+}
 .footer-headline-color {
   color: orangered;
+}
+.footer-content {
+  font-size: 20px;
 }
